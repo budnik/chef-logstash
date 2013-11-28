@@ -1,3 +1,7 @@
 source "https://rubygems.org"
 
-gem 'berkshelf'
+gem 'foodcritic'
+
+group :development do
+  gem 'berkshelf'
+end
